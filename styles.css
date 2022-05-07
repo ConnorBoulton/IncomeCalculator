@@ -1,0 +1,55 @@
+body {
+  height: 100vh;
+}
+
+.app {
+  position: relative;
+  top: 10%;
+  width: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border: 2px black solid;
+  background-color: aquamarine;
+  padding: 20px 10px 20px 10px;
+}
+
+.alpha {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.flex {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.beta {
+  background-color: burlywood;
+  border: 1px solid #333;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.submit-btn-pay {
+  /* background-color: #333; */
+  padding: 20px;
+}
+
+form {
+  width: 100%;
+}
+
+.desired-form {
+  line-height: 3rem;
+}

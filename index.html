@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles.css" rel="stylesheet" />
+    <title>Income Calculator</title>
+  </head>
+  <body>
+    <div class="app">
+      <h1>Input Calculator</h1>
+      <form>
+        <div class="alpha">
+          <span class="flex">
+            <p>Pay:</p>
+            <input class="pay-input" type="number" placeholder="Rate/Hour" />
+          </span>
+
+          <span class="flex">
+            <p>Hours:</p>
+            <input
+              class="hours-input"
+              type="number"
+              placeholder="Hours worked"
+            />
+          </span>
+
+          <span class="flex">
+            <p>Minutes:</p>
+            <input
+              class="minutes-input"
+              type="number"
+              placeholder="Total Minutes"
+            />
+          </span>
+        </div>
+
+        <div class="submit-btn-pay">
+          <button>Submit</button>
+        </div>
+      </form>
+
+      <div class="beta">
+        <span>
+          <p>Total gross:</p>
+          <p class="total-sum">$</p>
+        </span>
+
+        <span>
+          <p>Total UT tax payed:</p>
+          <p class="total-tax">$</p>
+        </span>
+
+        <span>
+          <p>Total profit:</p>
+          <p class="total-profit">$</p>
+        </span>
+      </div>
+      <div class="desired-section">
+        <h3>Calculate your goal</h3>
+
+        <form class="desired-form">
+          <input
+            class="desired-input"
+            placeholder="Desired amount $"
+            type="number"
+          />
+
+          <input
+            class="pay-input-desired"
+            type="number"
+            placeholder="Rate/Hour"
+          />
+
+          <button class="submit-btn-desired">Submit</button>
+        </form>
+
+        <span>
+          <p>Hours Needed:</p>
+          <p class="total-hours-needed"></p>
+        </span>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
