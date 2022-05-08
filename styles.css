@@ -14,7 +14,7 @@ body {
   text-align: center;
   flex-direction: column;
   border: 2px black solid;
-  background-color: aquamarine;
+  background-color: antiquewhite;
   padding: 20px 10px 20px 10px;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 .beta {
-  background-color: burlywood;
+  background-color: silver;
   border: 1px solid #333;
   width: 100%;
   display: grid;
@@ -52,4 +52,23 @@ form {
 
 .desired-form {
   line-height: 3rem;
+}
+
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media only screen and (max-width: 1230px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .app {
+    position: relative;
+    top: 0%;
+    width: 100%;
+  }
 }
